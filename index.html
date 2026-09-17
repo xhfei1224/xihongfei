@@ -108,32 +108,137 @@
           </tr>
         </tbody></table>
 
-			<table id="news" class="page-section" style="width:96%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-	          <tr>
-	              <heading>News</heading>
-	            <br>
-	            <td style="padding:0px;width:100%;vertical-align:middle">
-			  <P class="news-first-entry">
-                <li class="news-entry"><span class="news-date-badge">Jun. 2026</span> Our paper on interpretable multimodal agents was accepted by <span class="news-highlight">A fictional AI symposium</span>.
-                </li>
-              </P>
-			  <P>
-                <li class="news-entry"><span class="news-date-badge">Mar. 2026</span> I joined the <span class="news-highlight">Open Science Fellows</span> community.
-                </li>
-              </P>
-              <P>
-                <li class="news-entry"><span class="news-date-badge">Nov. 2025</span> We released a new <span class="news-highlight">educational AI toolkit</span> for public use.
-                </li>
-              </P>
-            </td>
-          </tr>
-        </tbody></table>
+		<table id="news" class="page-section"
+       style="width:96%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+      <td style="padding:0px;width:100%;vertical-align:middle">
+
+        <heading>News</heading>
+        <br>
+
+        <ul class="news-list">
+
+          <!-- ===== 默认显示：最新 5 条 ===== -->
+
+          <li class="news-entry">
+            <span class="news-date-badge">Sep. 2026</span>
+            Invited to serve as a reviewer for
+            <span class="news-highlight"><em>Computers and Electronics in Agriculture</em></span>
+            (CAS Q1, since Sep. 13, 2026).
+            <span class="new-badge">NEW!</span>
+          </li>
+
+          <li class="news-entry">
+            <span class="news-date-badge">Sep. 2026</span>
+            Invited to serve as a reviewer for
+            <span class="news-highlight"><em>Expert Systems with Applications</em></span>
+            (CAS Q1, since Sep. 9, 2026).
+            <span class="new-badge">NEW!</span>
+          </li>
+
+          <li class="news-entry">
+            <span class="news-date-badge">Sep. 2026</span>
+            Invited to serve as a reviewer for
+            <span class="news-highlight"><em>International Journal of Electrical Power &amp; Energy Systems</em></span>
+            (CAS Q4, since Sep. 1, 2026).
+            <span class="new-badge">NEW!</span>
+          </li>
+
+          <li class="news-entry">
+            <span class="news-date-badge">Aug. 2026</span>
+            Invited to serve as a reviewer for
+            <span class="news-highlight"><em>Journal of Mechanical Science and Technology</em></span>
+            (CAS Q4, since Aug. 1, 2026).
+          </li>
+
+          <li class="news-entry">
+            <span class="news-date-badge">Jul. 2026</span>
+            Invited to serve as a reviewer for
+            <span class="news-highlight"><em>IEEE Internet of Things Journal</em></span>
+            (CAS Q2, since Jul. 30, 2026).
+          </li>
+
+
+          <!-- ===== 默认隐藏：其余 7 条 ===== -->
+
+          <li class="news-entry extra-news">
+            <span class="news-date-badge">Jul. 2026</span>
+            Invited to serve as a reviewer for
+            <em><a class="news-journal-link" href="https://www.letpub.com.cn/index.php?journalid=206&page=journalapp&view=detail" target="_blank" rel="noopener">Advanced Engineering Informatics</a></em>
+            (CAS Q1, IF=11.62, since Jul. 20, 2026).
+
+          </li>
+
+          <li class="news-entry extra-news">
+            <span class="news-date-badge">Jun. 2026</span>
+            Invited to serve as a reviewer for
+            <span class="news-highlight"><em>IEEE Transactions on Industrial Informatics</em></span>
+            (CAS Q1, IF: 11.7, since Jun. 23, 2026).
+          </li>
+
+          <li class="news-entry extra-news">
+            <span class="news-date-badge">Apr. 2026</span>
+            Invited to serve as a reviewer for
+            <span class="news-highlight"><em>Structural Health Monitoring</em></span>
+            (CAS Q2, since Apr. 13, 2026).
+          </li>
+
+            <li class="news-entry extra-news">
+            <span class="news-date-badge">Mar. 2026</span>
+            Appointed as a committee member of the Information Technology and Simulation Professional Committee,
+            <em><a class="news-journal-link" href="http://www.csf-sim.org.cn" target="_blank" rel="noopener">China Simulation Society</a></em>
+            (since Mar. 2026).
+          </li>
+
+
+          <li class="news-entry extra-news">
+            <span class="news-date-badge">Feb. 2026</span>
+            Invited to serve as a reviewer for
+            <span class="news-highlight"><em>IEEE Transactions on Cybernetics</em></span>
+            (CAS Q1, since Feb. 15, 2026).
+          </li>
+
+          <li class="news-entry extra-news">
+            <span class="news-date-badge">Apr. 2025</span>
+            Invited to serve as a reviewer for
+            <span class="news-highlight"><em>Neurocomputing</em></span>
+            (CAS Q2, since Apr. 2, 2025).
+          </li>
+
+          <li class="news-entry extra-news">
+            <span class="news-date-badge">Sep. 2024</span>
+            Invited to serve as a reviewer for
+            <span class="news-highlight"><em>Neural Computing and Applications</em></span>
+            (CAS Q3, IF: 6.0, since Sep. 25, 2024).
+          </li>
+
+          <li class="news-entry extra-news">
+            <span class="news-date-badge">Oct. 2023</span>
+            Invited to serve as a reviewer for
+            <span class="news-highlight"><em>ISA Transactions</em></span>
+            (CAS Q2, IF: 7.3, since Oct. 8, 2023).
+          </li>
+
+        </ul>
+
+        <!-- 展开/收起按钮 -->
+        <div class="news-toggle-container">
+          <button id="news-toggle" type="button" onclick="toggleNews()">
+            View All ↓
+          </button>
+        </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
         
 		<table id="publications" class="publications-table page-section" style="width:100%;border:0px;border-spacing:0 16px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <heading>Publications</heading>
     <br>
    <p>† Equal contribution. * Corresponding author. The leading papers are <span style="background-color: #FFFEE0;">highlighted</span>.</p>
-   <p>The entries below are fictional examples. Replace them with your publications and update your <a href="#">Google Scholar</a> link.</p>
+
           
           <!-- Research Interests Tag Filter -->
           <style>
@@ -297,7 +402,7 @@
 
             // 复制简介功能
             document.getElementById('astronaut-btn').addEventListener('click', function(e) {
-              const text = "Alex Morgan is a fictional Ph.D. candidate at Northbridge Institute of Technology. Their research explores human-centered AI, reliable multimodal systems, and accessible tools for scientific discovery. This profile is sample content for a reusable personal homepage template.";
+              const text = "Xihong Fei is a fictional Ph.D. candidate at University of Science and Technology of China (USTC). Their research explores human-centered AI, reliable multimodal systems, and accessible tools for scientific discovery. This profile is sample content for a reusable personal homepage template.";
               copyText(text, e);
             });
 
@@ -317,7 +422,7 @@
 	                </div>
 	                <br>
 	                <img src="images/paper/rarelens.png" width="190" alt="RareLens clinical workflow">
-	                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/geteff1/RareLens?style=flat-square&color=yellow&label=stars&logo=GitHub">
+	                <!-- <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/geteff1/RareLens?style=flat-square&color=yellow&label=stars&logo=GitHub">-->
 	              </div>
 	              <script type="text/javascript">
 	                function rarelens_start() {
@@ -331,7 +436,7 @@
 	            </td>
 	            <td style="padding:20px;width:70%;vertical-align:middle">
 					<a href="https://arxiv.org/pdf/2607.23290">
-	              <papertitle>Physics-inspired graph fusion and reinforcement learning agent for unsupervised cross-domain fault diagnosis</papertitle>
+	              <papertitle>Multi-Scale Physics-informed reinforcement learning method for bearing fault diagnosis under data scarcity</papertitle>
 					</a>
 	              <br>
 	              <a:focus>Xi Chen</a:focus>,
@@ -366,14 +471,14 @@
 	              /
 	              <a href="https://eval.rarelens.org/">Human Evaluation</a>
 	              /
-	              <a href="https://github.com/geteff1/RareLens">Code</a>
-				  /
+
               	  <a href="https://arxiv.org/abs/2607.23290">Paper</a>
 	              <br>
-	              <em><strong>Preprint</strong></em>
+	              <em><strong>Structural Health Monitoring</strong></em>
 	              <p></p>
 	              <p>
-	              RareLens provides trustworthy, actionable decision support across the full rare-disease care pathway, from early risk screening and diagnosis to treatment, efficacy evaluation, and prognosis.
+	              We propose a novel multi-scale physics-informed neural network enhanced by reinforcement learning (MPINN-ERL) for bearing fault diagnosis under data scarcity.
+
 	            </td>
 	          </tr>
 
@@ -653,7 +758,7 @@
 	            // The publication cards are template examples, so their visible author lists
 	            // and destinations intentionally do not identify real people or projects.
 	            var sampleAuthors = [
-	              '<strong>Alex Morgan</strong>, Jamie Park, Noor Patel, Mira Chen*',
+	              'Xin Xia, <strong>Xihong Fei*</strong>, Kang Wang, Jing Wang, Lei Jiao and Tian Fang',
 	              '<strong>Alex Morgan†</strong>, Sam Rivera†, Taylor Kim, Mira Chen*',
 	              '<strong>Alex Morgan†</strong>, Jordan Lee†, Casey Wu, Mira Chen*',
 	              '<strong>Alex Morgan†</strong>, Robin Shah†, Dana Brooks, Mira Chen*',
@@ -940,5 +1045,26 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   </script>
+<script>
+function toggleNews() {
+
+    const extraNews = document.querySelectorAll('.extra-news');
+    const button = document.getElementById('news-toggle');
+
+    const isExpanded = button.getAttribute('data-expanded') === 'true';
+
+    extraNews.forEach(function(item) {
+        item.style.display = isExpanded ? 'none' : 'list-item';
+    });
+
+    if (isExpanded) {
+        button.innerHTML = 'View All ↓';
+        button.setAttribute('data-expanded', 'false');
+    } else {
+        button.innerHTML = 'Show Less ↑';
+        button.setAttribute('data-expanded', 'true');
+    }
+}
+</script>
 </body>
 </html>
