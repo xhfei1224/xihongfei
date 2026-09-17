@@ -348,8 +348,7 @@ heading {
   white-space: nowrap;
 }
 .news-entry {
-  list-style: none;
-  line-height: 1.35;
+ display: list-item;
 }
 #news p {
   margin: 3px 0;
@@ -993,4 +992,84 @@ span.highlight {
   .mountain-cta {
     animation: none;
   }
+}
+
+/* =========================
+   News - View All
+   ========================= */
+
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* 默认隐藏第 6 条及之后的 News */
+.extra-news {
+  display: none;
+}
+
+/* View All 按钮 */
+.news-toggle-container {
+  margin-top: 8px;
+  text-align: left;
+}
+
+#news-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #1772d0;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+#news-toggle:hover {
+  text-decoration: underline;
+}
+
+.new-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 8px;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #fff;
+  background: linear-gradient(135deg, #ff6b6b, #ee5a24, #f79f1f);
+  border-radius: 10px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(238, 90, 36, 0.35);
+  animation: badge-pulse 2s ease-in-out infinite;
+  vertical-align: middle;
+}
+
+@keyframes badge-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 2px 6px rgba(238, 90, 36, 0.35);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 3px 10px rgba(238, 90, 36, 0.5);
+  }
+}
+
+/* ... existing code ... */
+.news-journal-link {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.news-journal-link:hover {
+  color: #b47a00;
+  background: linear-gradient(135deg, rgba(251, 165, 36, 0.12), rgba(243, 208, 8, 0.12));
+  padding: 1px 4px;
+  border-radius: 4px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: #fba524;
 }
